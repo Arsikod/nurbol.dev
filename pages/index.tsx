@@ -4,6 +4,7 @@ import Date from '../components/atoms/Date';
 import Layout, { siteTitle } from '../components/unlisted/Layout/Layout';
 import { getSortedPostsData } from '../lib/posts';
 import utilStyles from '../styles/utils.module.css';
+import Icon from '../components/atoms/Icon';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -26,7 +27,10 @@ export default function Home({ allPostsData }: HomePageProps) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd} style={{ textAlign: 'center' }}>
-        <p>I write software with React and NextJS</p>
+        <p>
+          I write software with <Icon iconName="react" height="25" width="25" /> React and{' '}
+          <Icon iconName="nextjs" height="25" width="25" /> NextJS
+        </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
