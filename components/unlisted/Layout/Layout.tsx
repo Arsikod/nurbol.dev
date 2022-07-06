@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { PropsWithChildren } from 'react';
 
 const name = 'nurbol.dev';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Nurbol Dev';
 
 export type LayoutProps = PropsWithChildren<{
   home?: boolean;
@@ -17,10 +17,7 @@ export default function Layout({ children, home }: LayoutProps) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Web development tips" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
