@@ -34,7 +34,7 @@ export default function Home({ allPostsData }: HomePageProps) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>1 min read blogposts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => {
             return (

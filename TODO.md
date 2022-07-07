@@ -1,0 +1,3 @@
+- rewrite into small cards slider / shareable on twitter
+- add filter tags
+- add page of all cards
