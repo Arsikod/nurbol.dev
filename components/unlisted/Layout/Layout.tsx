@@ -4,6 +4,7 @@ import styles from './layout.module.css';
 import utilStyles from '../../../styles/utils.module.css';
 import Link from 'next/link';
 import { PropsWithChildren } from 'react';
+import Tilt from '../../lib/Tilt';
 
 const name = 'nurbol.dev';
 export const siteTitle = 'Nurbol Dev';
@@ -30,13 +31,15 @@ export default function Layout({ children, home }: LayoutProps) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image
-              priority
-              src="/images/profile.png"
-              alt={name}
-              height={150}
-              width={75}
-            />
+            <Tilt>
+              <Image
+                priority
+                src="/images/profile.png"
+                alt={name}
+                height={150}
+                width={75}
+              />
+            </Tilt>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
