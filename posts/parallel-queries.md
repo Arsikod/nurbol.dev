@@ -1,11 +1,9 @@
 ---
-title: 'Parallel and Dependent Queries'
+title: 'Parallel Queries with react-query'
 date: '2022-07-12'
 ---
 
-**Parallel queries with React Query**
-
-### Function with two queries
+**Function with two queries**
 
 ```javascript
 function twoResponseFunctions() {
@@ -16,7 +14,7 @@ function twoResponseFunctions() {
 }
 ```
 
-### Use function with two queries inside `useQuery`
+**Use function with two queries inside `useQuery`**
 
 ```javascript
 function MyComponent() {
