@@ -1,6 +1,6 @@
 ---
 title: 'Parallel Queries with react-query'
-date: '2022-07-12'
+date: '2022-07-09'
 ---
 
 **Function with two queries**
