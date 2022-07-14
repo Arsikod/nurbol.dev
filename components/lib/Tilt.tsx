@@ -9,8 +9,6 @@ export default function Tilt({ children }: PropsWithChildren): JSX.Element {
       VanillaTilt.init(tiltNode, {
         max: 25,
         speed: 400,
-        glare: true,
-        'max-glare': 0.5,
       });
     }
   });
