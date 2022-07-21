@@ -5,7 +5,7 @@ date: '2022-07-21'
 
 **Managed State:** State that you need to explicitly manage
 **Derived State:** State that you can calculate based on other state
-There is no need don't need to sync the derived state values because they're simply calculated every render.
+There is no need to sync the derived state values because they're simply calculated every render.
 
 ```javascript
 function MyComponent(props) {
