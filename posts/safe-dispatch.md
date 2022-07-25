@@ -9,7 +9,8 @@ we can obtain it through `useSafeDispatch` hook
 ```javascript
 function useSafeDispatch(dispatch) {
     const mountedRef = useRef(false)
-    useEffect(() => {
+    
+    useLayoutEffect(() => {
         mountedRef.current = true
 
         return () => {
