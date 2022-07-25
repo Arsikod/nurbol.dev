@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React from 'react';
+import React, { useState } from 'react';
 import Date from '../../components/atoms/Date';
 import Layout from '../../components/unlisted/Layout/Layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
