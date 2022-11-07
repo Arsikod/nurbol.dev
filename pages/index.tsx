@@ -28,13 +28,13 @@ export default function Home({ allPostsData }: HomePageProps) {
       </Head>
       <section className={utilStyles.headingMd} style={{ textAlign: 'center' }}>
         <p>
-          I write software with <Icon iconName="reactIcon" height="25" width="25" /> React
-          and <Icon iconName="nextJsIcon" height="25" width="25" /> NextJS
+          I develop software with <Icon iconName="reactIcon" height="25" width="25" />{' '}
+          React and <Icon iconName="nextJsIcon" height="25" width="25" /> NextJS
         </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>1 min read blogposts</h2>
+        <h2 className={utilStyles.headingLg}>1 min read recipes</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => {
             return (
