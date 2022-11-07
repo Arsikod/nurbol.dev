@@ -28,8 +28,8 @@ export default function Home({ allPostsData }: HomePageProps) {
       </Head>
       <section className={utilStyles.headingMd} style={{ textAlign: 'center' }}>
         <p>
-          I develop software with <Icon iconName="reactIcon" height="25" width="25" />{' '}
-          React and <Icon iconName="nextJsIcon" height="25" width="25" /> NextJS
+          I build software with <Icon iconName="reactIcon" height="25" width="25" /> React
+          and <Icon iconName="nextJsIcon" height="25" width="25" /> NextJS
         </p>
       </section>
 
