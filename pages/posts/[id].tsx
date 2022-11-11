@@ -30,6 +30,11 @@ export default function Post({ postData }: { postData: PostData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+
+        <meta name="description" content={postData.title} key="desc" />
+        <meta property="og:title" content={postData.title} />
+        <meta property="og:description" content={postData.title} />
+        <meta property="og:image" content="/public/images/profile.png" />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
