@@ -1,5 +1,5 @@
 ---
-title: "Branded type predicates
+title: "Branded type predicates"
 date: "2023-12-30"
 ---
 
